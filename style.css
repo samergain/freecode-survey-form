@@ -1,6 +1,37 @@
 html, body {
     margin: 0px;
     padding: 0px;
-    background-color: antiquewhite;
+    background-color: cornflowerblue;
+    text-align: center;
 }
 
+input {
+    border-radius: 5px;
+}
+
+label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    background-color: darkblue;
+    color: rgb(215, 210, 210);
+}
+.element {
+    margin-top: 10px;
+}
+
+#submit {
+    background-color: rgb(100, 169, 90);
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    color: white;
+}
