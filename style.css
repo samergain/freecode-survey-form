@@ -1,10 +1,14 @@
 html, body {
     margin: 0px;
     padding: 0px;
-    background-color: cornflowerblue;
+    background-color: cornflowerblue; 
+}
+#heading {
     text-align: center;
 }
-
+#name-label {
+    margin-top: 10px;
+}
 input {
     border-radius: 5px;
 }
@@ -19,19 +23,28 @@ p {
 form {
     display: flex;
     flex-direction: column;
+    row-gap: 10px;
     margin: auto;
     width: 50%;
     background-color: darkblue;
     color: rgb(215, 210, 210);
 }
+
+* {
+    margin-bottom: 5px;
+}
 .element {
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
 }
 
 #submit {
     background-color: rgb(100, 169, 90);
     width: 80%;
     height: 30px;
-    margin: auto;
+    margin: 8px auto;
     color: white;
 }
